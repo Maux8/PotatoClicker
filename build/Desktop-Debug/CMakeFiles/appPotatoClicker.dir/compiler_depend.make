@@ -1770,6 +1770,9 @@ CMakeFiles/appPotatoClicker.dir/main.cpp.o: ../../main.cpp \
   /home/mika/Qt/6.9.1/gcc_64/include/QtQml/qqmlerror.h \
   /home/mika/Qt/6.9.1/gcc_64/include/QtQml/qqmlabstracturlinterceptor.h
 
+CMakeFiles/appPotatoClicker.dir/qrc_ressources.cpp.o: qrc_ressources.cpp \
+  /usr/include/stdc-predef.h
+
 
 /home/mika/Qt/6.9.1/gcc_64/include/QtQml/qqmlapplicationengine.h:
 
@@ -1880,6 +1883,8 @@ CMakeFiles/appPotatoClicker.dir/main.cpp.o: ../../main.cpp \
 /home/mika/Qt/6.9.1/gcc_64/include/QtCore/qlist.h:
 
 /usr/include/c++/11/bits/unordered_set.h:
+
+qrc_ressources.cpp:
 
 /usr/include/c++/11/bits/stl_multiset.h:
 

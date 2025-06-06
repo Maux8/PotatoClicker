@@ -537,6 +537,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appPotatoClicker.dir/build.make CMakeFiles/appPotatoClicker.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+qrc_ressources.o: qrc_ressources.cpp.o
+.PHONY : qrc_ressources.o
+
+# target to build an object file
+qrc_ressources.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appPotatoClicker.dir/build.make CMakeFiles/appPotatoClicker.dir/qrc_ressources.cpp.o
+.PHONY : qrc_ressources.cpp.o
+
+qrc_ressources.i: qrc_ressources.cpp.i
+.PHONY : qrc_ressources.i
+
+# target to preprocess a source file
+qrc_ressources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appPotatoClicker.dir/build.make CMakeFiles/appPotatoClicker.dir/qrc_ressources.cpp.i
+.PHONY : qrc_ressources.cpp.i
+
+qrc_ressources.s: qrc_ressources.cpp.s
+.PHONY : qrc_ressources.s
+
+# target to generate assembly for a file
+qrc_ressources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appPotatoClicker.dir/build.make CMakeFiles/appPotatoClicker.dir/qrc_ressources.cpp.s
+.PHONY : qrc_ressources.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -586,6 +610,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... qrc_ressources.o"
+	@echo "... qrc_ressources.i"
+	@echo "... qrc_ressources.s"
 .PHONY : help
 
 

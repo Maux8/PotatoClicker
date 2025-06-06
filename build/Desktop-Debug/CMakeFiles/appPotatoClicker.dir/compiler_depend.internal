@@ -1777,3 +1777,7 @@ CMakeFiles/appPotatoClicker.dir/main.cpp.o
  /home/mika/Qt/6.9.1/gcc_64/include/QtQml/qqmlerror.h
  /home/mika/Qt/6.9.1/gcc_64/include/QtQml/qqmlabstracturlinterceptor.h
 
+CMakeFiles/appPotatoClicker.dir/qrc_ressources.cpp.o
+ /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/qrc_ressources.cpp
+ /usr/include/stdc-predef.h
+

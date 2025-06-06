@@ -1,6 +1,7 @@
 <RCC>
   <qresource prefix="/qt/qml/PotatoClicker/">
     <file alias="Main.qml">/home/mika/Desktop/Projects/PotatoClicker/Main.qml</file>
+    <file alias="ressources.qrc">/home/mika/Desktop/Projects/PotatoClicker/ressources.qrc</file>
   </qresource>
 </RCC>
 

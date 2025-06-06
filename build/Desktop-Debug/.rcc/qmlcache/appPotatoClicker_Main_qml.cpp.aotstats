@@ -5,11 +5,11 @@
                 "entries": [
                     {
                         "codegenSuccessful": true,
-                        "column": 27,
-                        "durationMicroseconds": 585,
+                        "column": 23,
+                        "durationMicroseconds": 91,
                         "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 13
+                        "functionName": "fill",
+                        "line": 10
                     }
                 ],
                 "filePath": "/home/mika/Desktop/Projects/PotatoClicker/Main.qml"

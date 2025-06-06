@@ -1,0 +1,196 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-a30f8c5f32892c2b29ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PotatoClicker",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-7764c7d6dd9e9631c3dc.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-9b4893910ef00dce5b1c.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-9cc00832d475696248c3.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-4e9cba6335ceae9a0c7f.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-cfc16bf68e2ad22442b1.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appPotatoClicker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appPotatoClicker-Debug-aeffc7289e91bd5bb0bd.json",
+					"name" : "appPotatoClicker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appPotatoClicker_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appPotatoClicker_autogen-Debug-b05bdc961dd8e1f59c81.json",
+					"name" : "appPotatoClicker_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appPotatoClicker_automoc_json_extraction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appPotatoClicker_automoc_json_extraction-Debug-c376b2506443ef144ebb.json",
+					"name" : "appPotatoClicker_automoc_json_extraction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appPotatoClicker_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appPotatoClicker_copy_qml-Debug-d8d6b483059d2b4ddcbb.json",
+					"name" : "appPotatoClicker_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appPotatoClicker_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appPotatoClicker_copy_res-Debug-4cb3fe11baab466600d5.json",
+					"name" : "appPotatoClicker_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appPotatoClicker_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appPotatoClicker_qmlimportscan-Debug-522f239645063c3ad435.json",
+					"name" : "appPotatoClicker_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appPotatoClicker_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appPotatoClicker_qmllint-Debug-37e16a729b34b495a956.json",
+					"name" : "appPotatoClicker_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appPotatoClicker_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appPotatoClicker_qmllint_json-Debug-7048bc229f3500e070bc.json",
+					"name" : "appPotatoClicker_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appPotatoClicker_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appPotatoClicker_qmllint_module-Debug-d06af0468ff362594f5e.json",
+					"name" : "appPotatoClicker_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appPotatoClicker_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appPotatoClicker_qmltyperegistration-Debug-323630911f4d812954a5.json",
+					"name" : "appPotatoClicker_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appPotatoClicker_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appPotatoClicker_aotstats_target-Debug-666f578575d74da92bca.json",
+					"name" : "module_appPotatoClicker_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug",
+		"source" : "/home/mika/Desktop/Projects/PotatoClicker"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

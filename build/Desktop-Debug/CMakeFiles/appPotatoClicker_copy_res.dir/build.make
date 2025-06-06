@@ -69,6 +69,7 @@ include CMakeFiles/appPotatoClicker_copy_res.dir/progress.make
 CMakeFiles/appPotatoClicker_copy_res: .qt/appPotatoClicker_res.txt
 
 .qt/appPotatoClicker_res.txt: /home/mika/Qt/6.9.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
+.qt/appPotatoClicker_res.txt: ../../ressources.qrc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying appPotatoClicker qml resources into build dir"
 	/usr/bin/cmake -DFILES_INFO_PATH=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/.qt/appPotatoClicker_res.cmake -P /home/mika/Qt/6.9.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 

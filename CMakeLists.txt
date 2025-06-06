@@ -6,10 +6,15 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Qt6 REQUIRED COMPONENTS Quick)
 
+
 qt_standard_project_setup(REQUIRES 6.8)
+
+qt_add_resources(RESOURCES ressources.qrc)
 
 qt_add_executable(appPotatoClicker
     main.cpp
+    Main.qml
+    ${RESOURCES}
 )
 
 qt_add_qml_module(appPotatoClicker
@@ -17,7 +22,9 @@ qt_add_qml_module(appPotatoClicker
     VERSION 1.0
     QML_FILES
         Main.qml
+        RESOURCES ressources.qrc
 )
+
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an
@@ -40,3 +47,4 @@ install(TARGETS appPotatoClicker
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
+

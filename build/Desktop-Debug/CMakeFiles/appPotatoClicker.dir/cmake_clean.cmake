@@ -21,12 +21,15 @@ file(REMOVE_RECURSE
   "CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_qmlcache_loader.cpp.o.d"
   "CMakeFiles/appPotatoClicker.dir/main.cpp.o"
   "CMakeFiles/appPotatoClicker.dir/main.cpp.o.d"
+  "CMakeFiles/appPotatoClicker.dir/qrc_ressources.cpp.o"
+  "CMakeFiles/appPotatoClicker.dir/qrc_ressources.cpp.o.d"
   "PotatoClicker/appPotatoClicker.qmltypes"
   "appPotatoClicker"
   "appPotatoClicker.pdb"
   "apppotatoclicker_qmltyperegistrations.cpp"
   "meta_types/qt6apppotatoclicker_debug_metatypes.json"
   "meta_types/qt6apppotatoclicker_debug_metatypes.json.gen"
+  "qrc_ressources.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

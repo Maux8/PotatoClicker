@@ -1,15 +1,13 @@
 import QtQuick
 
 Window {
-    width: 640
-    height: 480
+    height: 680
+    width: 1200
+    title: "Potato Clicker"
     visible: true
-    title: qsTr("Hello World")
 
-    Rectangle {
-        width: 200
-        height: 200
-        color: "red"
-        anchors.centerIn: parent
+    Image {
+        anchors.fill: parent
+        source: "qrc:qt/qml/Images/Kartoffelacker.png"
     }
 }

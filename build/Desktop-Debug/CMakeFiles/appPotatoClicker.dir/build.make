@@ -69,9 +69,16 @@ include CMakeFiles/appPotatoClicker.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/appPotatoClicker.dir/flags.make
 
+qrc_ressources.cpp: ../../Images/Kartoffelacker.png
+qrc_ressources.cpp: ressources.qrc.depends
+qrc_ressources.cpp: /home/mika/Qt/6.9.1/gcc_64/libexec/rcc
+qrc_ressources.cpp: ../../ressources.qrc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_ressources.cpp"
+	/home/mika/Qt/6.9.1/gcc_64/libexec/rcc --name ressources --output /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/qrc_ressources.cpp /home/mika/Desktop/Projects/PotatoClicker/ressources.qrc
+
 meta_types/qt6apppotatoclicker_debug_metatypes.json.gen: /home/mika/Qt/6.9.1/gcc_64/libexec/moc
 meta_types/qt6apppotatoclicker_debug_metatypes.json.gen: meta_types/appPotatoClicker_json_file_list.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running moc --collect-json for target appPotatoClicker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running moc --collect-json for target appPotatoClicker"
 	/home/mika/Qt/6.9.1/gcc_64/libexec/moc -o /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/meta_types/qt6apppotatoclicker_debug_metatypes.json.gen --collect-json @/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/meta_types/appPotatoClicker_json_file_list.txt
 	/usr/bin/cmake -E copy_if_different /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/meta_types/qt6apppotatoclicker_debug_metatypes.json.gen /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/meta_types/qt6apppotatoclicker_debug_metatypes.json
 
@@ -87,7 +94,7 @@ apppotatoclicker_qmltyperegistrations.cpp: /home/mika/Qt/6.9.1/gcc_64/metatypes/
 apppotatoclicker_qmltyperegistrations.cpp: /home/mika/Qt/6.9.1/gcc_64/metatypes/qt6qmlmodels_relwithdebinfo_metatypes.json
 apppotatoclicker_qmltyperegistrations.cpp: /home/mika/Qt/6.9.1/gcc_64/metatypes/qt6qmlworkerscript_relwithdebinfo_metatypes.json
 apppotatoclicker_qmltyperegistrations.cpp: /home/mika/Qt/6.9.1/gcc_64/metatypes/qt6opengl_relwithdebinfo_metatypes.json
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic QML type registration for target appPotatoClicker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Automatic QML type registration for target appPotatoClicker"
 	/home/mika/Qt/6.9.1/gcc_64/libexec/qmltyperegistrar --generate-qmltypes=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/PotatoClicker/appPotatoClicker.qmltypes --import-name=PotatoClicker --major-version=1 --minor-version=0 @/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/qmltypes/appPotatoClicker_foreign_types.txt -o /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/apppotatoclicker_qmltyperegistrations.cpp /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/meta_types/qt6apppotatoclicker_debug_metatypes.json
 	/usr/bin/cmake -E make_directory /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/.qt/qmltypes
 	/usr/bin/cmake -E touch /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/.qt/qmltypes/appPotatoClicker.qmltypes
@@ -98,14 +105,14 @@ PotatoClicker/appPotatoClicker.qmltypes: apppotatoclicker_qmltyperegistrations.c
 .qt/rcc/qrc_qmake_PotatoClicker.cpp: PotatoClicker/qmldir
 .qt/rcc/qrc_qmake_PotatoClicker.cpp: .qt/rcc/qmake_PotatoClicker.qrc
 .qt/rcc/qrc_qmake_PotatoClicker.cpp: /home/mika/Qt/6.9.1/gcc_64/libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running rcc for resource qmake_PotatoClicker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Running rcc for resource qmake_PotatoClicker"
 	/home/mika/Qt/6.9.1/gcc_64/libexec/rcc --output /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/.qt/rcc/qrc_qmake_PotatoClicker.cpp --name qmake_PotatoClicker /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/.qt/rcc/qmake_PotatoClicker.qrc
 
 .rcc/qmlcache/appPotatoClicker_qmlcache_loader.cpp: /home/mika/Qt/6.9.1/gcc_64/libexec/qmlcachegen
 .rcc/qmlcache/appPotatoClicker_qmlcache_loader.cpp: .rcc/qmlcache/appPotatoClicker_qml_loader_file_list.rsp
 .rcc/qmlcache/appPotatoClicker_qmlcache_loader.cpp: .qt/rcc/qmake_PotatoClicker.qrc
 .rcc/qmlcache/appPotatoClicker_qmlcache_loader.cpp: .qt/rcc/appPotatoClicker_raw_qml_0.qrc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating .rcc/qmlcache/appPotatoClicker_qmlcache_loader.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating .rcc/qmlcache/appPotatoClicker_qmlcache_loader.cpp"
 	/home/mika/Qt/6.9.1/gcc_64/libexec/qmlcachegen --resource-name qmlcache_appPotatoClicker -o /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_qmlcache_loader.cpp @/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_qml_loader_file_list.rsp
 
 .rcc/qmlcache/appPotatoClicker_Main_qml.cpp: /home/mika/Qt/6.9.1/gcc_64/libexec/qmlcachegen
@@ -114,7 +121,7 @@ PotatoClicker/appPotatoClicker.qmltypes: apppotatoclicker_qmltyperegistrations.c
 .rcc/qmlcache/appPotatoClicker_Main_qml.cpp: .qt/rcc/appPotatoClicker_raw_qml_0.qrc
 .rcc/qmlcache/appPotatoClicker_Main_qml.cpp: PotatoClicker/appPotatoClicker.qmltypes
 .rcc/qmlcache/appPotatoClicker_Main_qml.cpp: PotatoClicker/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating .rcc/qmlcache/appPotatoClicker_Main_qml.cpp, .rcc/qmlcache/appPotatoClicker_Main_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/appPotatoClicker_Main_qml.cpp, .rcc/qmlcache/appPotatoClicker_Main_qml.cpp.aotstats"
 	/usr/bin/cmake -E make_directory /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/.rcc/qmlcache
 	/home/mika/Qt/6.9.1/gcc_64/libexec/qmlcachegen --bare --resource-path /qt/qml/PotatoClicker/Main.qml -I /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug -I /home/mika/Qt/6.9.1/gcc_64/qml -i /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/PotatoClicker/qmldir --resource /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/.qt/rcc/qmake_PotatoClicker.qrc --resource /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/.qt/rcc/appPotatoClicker_raw_qml_0.qrc --dump-aot-stats "--module-id=PotatoClicker(appPotatoClicker)" -o /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_Main_qml.cpp /home/mika/Desktop/Projects/PotatoClicker/Main.qml
 
@@ -122,19 +129,20 @@ PotatoClicker/appPotatoClicker.qmltypes: apppotatoclicker_qmltyperegistrations.c
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/appPotatoClicker_Main_qml.cpp.aotstats
 
 .qt/rcc/qrc_appPotatoClicker_raw_qml_0.cpp: ../../Main.qml
+.qt/rcc/qrc_appPotatoClicker_raw_qml_0.cpp: ../../ressources.qrc
 .qt/rcc/qrc_appPotatoClicker_raw_qml_0.cpp: .qt/rcc/appPotatoClicker_raw_qml_0.qrc
 .qt/rcc/qrc_appPotatoClicker_raw_qml_0.cpp: /home/mika/Qt/6.9.1/gcc_64/libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Running rcc for resource appPotatoClicker_raw_qml_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Running rcc for resource appPotatoClicker_raw_qml_0"
 	/home/mika/Qt/6.9.1/gcc_64/libexec/rcc --output /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/.qt/rcc/qrc_appPotatoClicker_raw_qml_0.cpp --name appPotatoClicker_raw_qml_0 /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/.qt/rcc/appPotatoClicker_raw_qml_0.qrc
 
 meta_types/qt6apppotatoclicker_debug_metatypes.json: meta_types/qt6apppotatoclicker_debug_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating meta_types/qt6apppotatoclicker_debug_metatypes.json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating meta_types/qt6apppotatoclicker_debug_metatypes.json"
 	/usr/bin/cmake -E true
 
 CMakeFiles/appPotatoClicker.dir/appPotatoClicker_autogen/mocs_compilation.cpp.o: CMakeFiles/appPotatoClicker.dir/flags.make
 CMakeFiles/appPotatoClicker.dir/appPotatoClicker_autogen/mocs_compilation.cpp.o: appPotatoClicker_autogen/mocs_compilation.cpp
 CMakeFiles/appPotatoClicker.dir/appPotatoClicker_autogen/mocs_compilation.cpp.o: CMakeFiles/appPotatoClicker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/appPotatoClicker.dir/appPotatoClicker_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/appPotatoClicker.dir/appPotatoClicker_autogen/mocs_compilation.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appPotatoClicker.dir/appPotatoClicker_autogen/mocs_compilation.cpp.o -MF CMakeFiles/appPotatoClicker.dir/appPotatoClicker_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/appPotatoClicker.dir/appPotatoClicker_autogen/mocs_compilation.cpp.o -c /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/appPotatoClicker_autogen/mocs_compilation.cpp
 
 CMakeFiles/appPotatoClicker.dir/appPotatoClicker_autogen/mocs_compilation.cpp.i: cmake_force
@@ -148,7 +156,7 @@ CMakeFiles/appPotatoClicker.dir/appPotatoClicker_autogen/mocs_compilation.cpp.s:
 CMakeFiles/appPotatoClicker.dir/main.cpp.o: CMakeFiles/appPotatoClicker.dir/flags.make
 CMakeFiles/appPotatoClicker.dir/main.cpp.o: ../../main.cpp
 CMakeFiles/appPotatoClicker.dir/main.cpp.o: CMakeFiles/appPotatoClicker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/appPotatoClicker.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/appPotatoClicker.dir/main.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appPotatoClicker.dir/main.cpp.o -MF CMakeFiles/appPotatoClicker.dir/main.cpp.o.d -o CMakeFiles/appPotatoClicker.dir/main.cpp.o -c /home/mika/Desktop/Projects/PotatoClicker/main.cpp
 
 CMakeFiles/appPotatoClicker.dir/main.cpp.i: cmake_force
@@ -159,10 +167,24 @@ CMakeFiles/appPotatoClicker.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/appPotatoClicker.dir/main.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mika/Desktop/Projects/PotatoClicker/main.cpp -o CMakeFiles/appPotatoClicker.dir/main.cpp.s
 
+CMakeFiles/appPotatoClicker.dir/qrc_ressources.cpp.o: CMakeFiles/appPotatoClicker.dir/flags.make
+CMakeFiles/appPotatoClicker.dir/qrc_ressources.cpp.o: qrc_ressources.cpp
+CMakeFiles/appPotatoClicker.dir/qrc_ressources.cpp.o: CMakeFiles/appPotatoClicker.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/appPotatoClicker.dir/qrc_ressources.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appPotatoClicker.dir/qrc_ressources.cpp.o -MF CMakeFiles/appPotatoClicker.dir/qrc_ressources.cpp.o.d -o CMakeFiles/appPotatoClicker.dir/qrc_ressources.cpp.o -c /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/qrc_ressources.cpp
+
+CMakeFiles/appPotatoClicker.dir/qrc_ressources.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/appPotatoClicker.dir/qrc_ressources.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/qrc_ressources.cpp > CMakeFiles/appPotatoClicker.dir/qrc_ressources.cpp.i
+
+CMakeFiles/appPotatoClicker.dir/qrc_ressources.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/appPotatoClicker.dir/qrc_ressources.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/qrc_ressources.cpp -o CMakeFiles/appPotatoClicker.dir/qrc_ressources.cpp.s
+
 CMakeFiles/appPotatoClicker.dir/apppotatoclicker_qmltyperegistrations.cpp.o: CMakeFiles/appPotatoClicker.dir/flags.make
 CMakeFiles/appPotatoClicker.dir/apppotatoclicker_qmltyperegistrations.cpp.o: apppotatoclicker_qmltyperegistrations.cpp
 CMakeFiles/appPotatoClicker.dir/apppotatoclicker_qmltyperegistrations.cpp.o: CMakeFiles/appPotatoClicker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/appPotatoClicker.dir/apppotatoclicker_qmltyperegistrations.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/appPotatoClicker.dir/apppotatoclicker_qmltyperegistrations.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appPotatoClicker.dir/apppotatoclicker_qmltyperegistrations.cpp.o -MF CMakeFiles/appPotatoClicker.dir/apppotatoclicker_qmltyperegistrations.cpp.o.d -o CMakeFiles/appPotatoClicker.dir/apppotatoclicker_qmltyperegistrations.cpp.o -c /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/apppotatoclicker_qmltyperegistrations.cpp
 
 CMakeFiles/appPotatoClicker.dir/apppotatoclicker_qmltyperegistrations.cpp.i: cmake_force
@@ -176,7 +198,7 @@ CMakeFiles/appPotatoClicker.dir/apppotatoclicker_qmltyperegistrations.cpp.s: cma
 CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.qt/rcc/qrc_qmake_PotatoClicker.cpp.o: CMakeFiles/appPotatoClicker.dir/flags.make
 CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.qt/rcc/qrc_qmake_PotatoClicker.cpp.o: .qt/rcc/qrc_qmake_PotatoClicker.cpp
 CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.qt/rcc/qrc_qmake_PotatoClicker.cpp.o: CMakeFiles/appPotatoClicker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.qt/rcc/qrc_qmake_PotatoClicker.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.qt/rcc/qrc_qmake_PotatoClicker.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.qt/rcc/qrc_qmake_PotatoClicker.cpp.o -MF CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.qt/rcc/qrc_qmake_PotatoClicker.cpp.o.d -o CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.qt/rcc/qrc_qmake_PotatoClicker.cpp.o -c /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/.qt/rcc/qrc_qmake_PotatoClicker.cpp
 
 CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.qt/rcc/qrc_qmake_PotatoClicker.cpp.i: cmake_force
@@ -190,7 +212,7 @@ CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.qt/rcc/qrc_qmake_PotatoClic
 CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_qmlcache_loader.cpp.o: CMakeFiles/appPotatoClicker.dir/flags.make
 CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_qmlcache_loader.cpp.o: .rcc/qmlcache/appPotatoClicker_qmlcache_loader.cpp
 CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_qmlcache_loader.cpp.o: CMakeFiles/appPotatoClicker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_qmlcache_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_qmlcache_loader.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_qmlcache_loader.cpp.o -MF CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_qmlcache_loader.cpp.o.d -o CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_qmlcache_loader.cpp.o -c /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_qmlcache_loader.cpp
 
 CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_qmlcache_loader.cpp.i: cmake_force
@@ -204,7 +226,7 @@ CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.rcc/qmlcache/appPotatoClick
 CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_Main_qml.cpp.o: CMakeFiles/appPotatoClicker.dir/flags.make
 CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_Main_qml.cpp.o: .rcc/qmlcache/appPotatoClicker_Main_qml.cpp
 CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_Main_qml.cpp.o: CMakeFiles/appPotatoClicker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_Main_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_Main_qml.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_Main_qml.cpp.o -MF CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_Main_qml.cpp.o.d -o CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_Main_qml.cpp.o -c /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_Main_qml.cpp
 
 CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_Main_qml.cpp.i: cmake_force
@@ -218,7 +240,7 @@ CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.rcc/qmlcache/appPotatoClick
 CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.qt/rcc/qrc_appPotatoClicker_raw_qml_0.cpp.o: CMakeFiles/appPotatoClicker.dir/flags.make
 CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.qt/rcc/qrc_appPotatoClicker_raw_qml_0.cpp.o: .qt/rcc/qrc_appPotatoClicker_raw_qml_0.cpp
 CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.qt/rcc/qrc_appPotatoClicker_raw_qml_0.cpp.o: CMakeFiles/appPotatoClicker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.qt/rcc/qrc_appPotatoClicker_raw_qml_0.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.qt/rcc/qrc_appPotatoClicker_raw_qml_0.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.qt/rcc/qrc_appPotatoClicker_raw_qml_0.cpp.o -MF CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.qt/rcc/qrc_appPotatoClicker_raw_qml_0.cpp.o.d -o CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.qt/rcc/qrc_appPotatoClicker_raw_qml_0.cpp.o -c /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/.qt/rcc/qrc_appPotatoClicker_raw_qml_0.cpp
 
 CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.qt/rcc/qrc_appPotatoClicker_raw_qml_0.cpp.i: cmake_force
@@ -233,6 +255,7 @@ CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.qt/rcc/qrc_appPotatoClicker
 appPotatoClicker_OBJECTS = \
 "CMakeFiles/appPotatoClicker.dir/appPotatoClicker_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/appPotatoClicker.dir/main.cpp.o" \
+"CMakeFiles/appPotatoClicker.dir/qrc_ressources.cpp.o" \
 "CMakeFiles/appPotatoClicker.dir/apppotatoclicker_qmltyperegistrations.cpp.o" \
 "CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.qt/rcc/qrc_qmake_PotatoClicker.cpp.o" \
 "CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_qmlcache_loader.cpp.o" \
@@ -244,6 +267,7 @@ appPotatoClicker_EXTERNAL_OBJECTS =
 
 appPotatoClicker: CMakeFiles/appPotatoClicker.dir/appPotatoClicker_autogen/mocs_compilation.cpp.o
 appPotatoClicker: CMakeFiles/appPotatoClicker.dir/main.cpp.o
+appPotatoClicker: CMakeFiles/appPotatoClicker.dir/qrc_ressources.cpp.o
 appPotatoClicker: CMakeFiles/appPotatoClicker.dir/apppotatoclicker_qmltyperegistrations.cpp.o
 appPotatoClicker: CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.qt/rcc/qrc_qmake_PotatoClicker.cpp.o
 appPotatoClicker: CMakeFiles/appPotatoClicker.dir/build/Desktop-Debug/.rcc/qmlcache/appPotatoClicker_qmlcache_loader.cpp.o
@@ -262,7 +286,7 @@ appPotatoClicker: /usr/lib/x86_64-linux-gnu/libGLX.so
 appPotatoClicker: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 appPotatoClicker: /home/mika/Qt/6.9.1/gcc_64/lib/libQt6Core.so.6.9.1
 appPotatoClicker: CMakeFiles/appPotatoClicker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable appPotatoClicker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable appPotatoClicker"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/appPotatoClicker.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -282,6 +306,7 @@ CMakeFiles/appPotatoClicker.dir/depend: PotatoClicker/appPotatoClicker.qmltypes
 CMakeFiles/appPotatoClicker.dir/depend: apppotatoclicker_qmltyperegistrations.cpp
 CMakeFiles/appPotatoClicker.dir/depend: meta_types/qt6apppotatoclicker_debug_metatypes.json
 CMakeFiles/appPotatoClicker.dir/depend: meta_types/qt6apppotatoclicker_debug_metatypes.json.gen
+CMakeFiles/appPotatoClicker.dir/depend: qrc_ressources.cpp
 	cd /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mika/Desktop/Projects/PotatoClicker /home/mika/Desktop/Projects/PotatoClicker /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/CMakeFiles/appPotatoClicker.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/appPotatoClicker.dir/depend
 
