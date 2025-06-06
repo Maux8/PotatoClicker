@@ -1,0 +1,5 @@
+module PotatoClicker
+typeinfo appPotatoClicker.qmltypes
+prefer :/qt/qml/PotatoClicker/
+Main 1.0 Main.qml
+

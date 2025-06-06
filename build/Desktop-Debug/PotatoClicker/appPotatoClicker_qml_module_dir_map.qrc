@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/PotatoClicker">/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/PotatoClicker</file>
+
+  </qresource>
+</RCC>

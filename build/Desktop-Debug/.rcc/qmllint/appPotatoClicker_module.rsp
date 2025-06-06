@@ -1,0 +1,10 @@
+-I
+/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug
+-I
+/home/mika/Qt/6.9.1/gcc_64/qml
+--resource
+/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/.qt/rcc/qmake_PotatoClicker.qrc
+--resource
+/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/.qt/rcc/appPotatoClicker_raw_qml_0.qrc
+--module
+PotatoClicker

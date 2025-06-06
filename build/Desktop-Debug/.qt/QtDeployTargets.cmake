@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appPotatoClicker_FILE /home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/appPotatoClicker)
+set(__QT_DEPLOY_TARGET_appPotatoClicker_TYPE EXECUTABLE)

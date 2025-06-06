@@ -1,0 +1,14 @@
+-rootPath
+/home/mika/Desktop/Projects/PotatoClicker
+-cmake-output
+-output-file
+/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/.qt/qml_imports/appPotatoClicker_build.cmake
+-importPath
+/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/PotatoClicker
+-importPath
+/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug
+-importPath
+/home/mika/Qt/6.9.1/gcc_64/qml
+-qrcFiles
+/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/.qt/rcc/qmake_PotatoClicker.qrc
+/home/mika/Desktop/Projects/PotatoClicker/build/Desktop-Debug/.qt/rcc/appPotatoClicker_raw_qml_0.qrc

@@ -1,0 +1,20 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 585,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 13
+                    }
+                ],
+                "filePath": "/home/mika/Desktop/Projects/PotatoClicker/Main.qml"
+            }
+        ],
+        "moduleId": "PotatoClicker(appPotatoClicker)"
+    }
+]
