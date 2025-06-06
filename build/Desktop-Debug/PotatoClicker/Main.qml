@@ -8,6 +8,6 @@ Window {
 
     Image {
         anchors.fill: parent
-        source: "qrc:qt/qml/Images/Kartoffelacker.png"
+        source: "qrc:/qt/qml/Images/Kartoffelacker.png"
     }
 }
