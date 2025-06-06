@@ -7,6 +7,7 @@ Window {
     visible: true
 
     Image {
+        id: acker
         anchors.fill: parent
         source: "qrc:/qt/qml/Images/Kartoffelacker.png"
     }
