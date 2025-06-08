@@ -20,7 +20,23 @@ Window {
         }
 
         MKartoffel {
+            id: dieKartoffel
             onClicked: root.kartoffeln++
+        }
+
+        MUpgrade {
+            id: testUpgrade
+            upgradeText: "test upgrade \nKosten: " + upgradeCost + "\nClick Stärke: " + clickStrength
+            upgradeInterval: 1000
+            upgradeCost: 20
+            kartoffeln: root.kartoffeln
+            onAutoClick: root.kartoffeln += clickStrength
+
+            onManualClick: {
+                if (root.kartoffeln >= upgradeCost) {
+                    root.kartoffeln -= upgradeCost
+                }
+            }
         }
     }
 }
