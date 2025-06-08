@@ -13,7 +13,6 @@ qt_add_resources(RESOURCES ressources.qrc)
 
 qt_add_executable(appPotatoClicker
     main.cpp
-    Main.qml
     ${RESOURCES}
 )
 
@@ -22,7 +21,7 @@ qt_add_qml_module(appPotatoClicker
     VERSION 1.0
     QML_FILES
         Main.qml
-        RESOURCES ressources.qrc
+    RESOURCES ressources.qrc
 )
 
 
@@ -47,4 +46,3 @@ install(TARGETS appPotatoClicker
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
-

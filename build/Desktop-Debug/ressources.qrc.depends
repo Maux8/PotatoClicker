@@ -1,5 +1,9 @@
 <RCC>
     <qresource prefix="/qt/qml/PotatoClicker">
         <file>Images/Kartoffelacker.png</file>
+        <file>Images/EineKartoffel.jpg</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>Button.qml</file>
     </qresource>
 </RCC>

@@ -70,6 +70,8 @@ include CMakeFiles/appPotatoClicker.dir/progress.make
 include CMakeFiles/appPotatoClicker.dir/flags.make
 
 qrc_ressources.cpp: ../../Images/Kartoffelacker.png
+qrc_ressources.cpp: ../../Images/EineKartoffel.jpg
+qrc_ressources.cpp: ../../Button.qml
 qrc_ressources.cpp: ressources.qrc.depends
 qrc_ressources.cpp: /home/mika/Qt/6.9.1/gcc_64/libexec/rcc
 qrc_ressources.cpp: ../../ressources.qrc
