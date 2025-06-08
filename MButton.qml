@@ -2,12 +2,15 @@ import QtQuick
 
 Rectangle {
     id: root
-    property alias text: label.text
+    property alias buttonText: label.text
+    property alias buttonWidth: root.width
+    property alias buttonHeight: root.height
+    property alias buttonColor: root.color
     signal clicked
-    width: 40
-    height: 75
-    color: "red"
-    border.color: "brown"
+    width: buttonWidth
+    height: buttonHeight
+    color: buttonColor
+    border.color: "black"
 
     Text {
         id: label

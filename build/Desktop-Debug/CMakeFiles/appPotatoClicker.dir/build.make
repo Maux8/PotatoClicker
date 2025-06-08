@@ -69,9 +69,14 @@ include CMakeFiles/appPotatoClicker.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/appPotatoClicker.dir/flags.make
 
-qrc_ressources.cpp: ../../Images/Kartoffelacker.png
+qrc_ressources.cpp: ../../MButton.qml
+qrc_ressources.cpp: ../../Main.qml
 qrc_ressources.cpp: ../../Images/EineKartoffel.jpg
-qrc_ressources.cpp: ../../Button.qml
+qrc_ressources.cpp: ../../Images/Kartoffelacker.png
+qrc_ressources.cpp: ../../MUpgrade.qml
+qrc_ressources.cpp: ../../MKartoffelDisplay.qml
+qrc_ressources.cpp: ../../Images/EineAusgeschnitteneKartoffeln.png
+qrc_ressources.cpp: ../../MKartoffel.qml
 qrc_ressources.cpp: ressources.qrc.depends
 qrc_ressources.cpp: /home/mika/Qt/6.9.1/gcc_64/libexec/rcc
 qrc_ressources.cpp: ../../ressources.qrc

@@ -1,41 +1,26 @@
 import QtQuick
+import PotatoClicker 1.0
 
 Window {
     id: root
-    width: 1200; height: 680
+    width: 1200
+    height: 680
     title: "Potato Clicker"
     visible: true
+    property int kartoffeln: 0
 
     Image {
         id: acker
         anchors.fill: parent
-        source: "Images/Kartoffelacker.png"
+        source: "qrc:/Images/Kartoffelacker.png"
 
-        Text {
+        MKartoffelDisplay {
             id: kartoffelDisplay
-            property int kartoffeln
-            text: "Deine Kartoffeln: " + kartoffeln
-            anchors.horizontalCenter: parent.horizontalCenter
+            displayKartoffeln: root.kartoffeln
         }
 
-        Rectangle {
-            id: fakeKartoffel
-            width: 2 * height ;height: 80
-            anchors.centerIn: parent
-            color: "orange"
-            border.color: "brown"
-
-            Text {
-                id: kartoffelText
-                text: "Ich bin eine Kartoffel!"
-                anchors.centerIn: parent
-            }
-
-            MouseArea {
-                id: kartoffelArea
-                anchors.fill: parent
-                onClicked: kartoffelDisplay.kartoffeln++
-            }
+        MKartoffel {
+            onClicked: root.kartoffeln++
         }
     }
 }

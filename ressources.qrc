@@ -4,5 +4,9 @@
         <file>Main.qml</file>
         <file>Images/EineKartoffel.jpg</file>
         <file>Images/Kartoffelacker.png</file>
+        <file>MUpgrade.qml</file>
+        <file>MKartoffelDisplay.qml</file>
+        <file>Images/EineAusgeschnitteneKartoffeln.png</file>
+        <file>MKartoffel.qml</file>
     </qresource>
 </RCC>

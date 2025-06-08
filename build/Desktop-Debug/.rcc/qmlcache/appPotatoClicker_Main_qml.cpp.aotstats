@@ -6,66 +6,26 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 90,
+                        "durationMicroseconds": 86,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 11
+                        "line": 14
                     },
                     {
-                        "codegenSuccessful": true,
-                        "column": 19,
-                        "durationMicroseconds": 90,
-                        "errorMessage": "",
-                        "functionName": "text",
-                        "line": 17
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"displayKartoffeln\".",
+                        "functionName": "displayKartoffeln",
+                        "line": 19
                     },
                     {
-                        "codegenSuccessful": true,
-                        "column": 39,
-                        "durationMicroseconds": 68,
-                        "errorMessage": "",
-                        "functionName": "horizontalCenter",
-                        "line": 18
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 20,
-                        "durationMicroseconds": 59,
-                        "errorMessage": "",
-                        "functionName": "width",
-                        "line": 23
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 31,
-                        "durationMicroseconds": 30,
-                        "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 24
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 35,
-                        "durationMicroseconds": 27,
-                        "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 31
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 28,
-                        "durationMicroseconds": 111,
-                        "errorMessage": "",
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"clicked\".",
                         "functionName": "onClicked",
-                        "line": 37
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 31,
-                        "durationMicroseconds": 30,
-                        "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 36
+                        "line": 23
                     }
                 ],
                 "filePath": "/home/mika/Desktop/Projects/PotatoClicker/Main.qml"

@@ -3,11 +3,9 @@
 78060f19cf0ab245d6b41bb0a69dd27e .qt/appPotatoClicker_res.txt
 edccb2ab3adc35d544dc14ac2bdd0de6 .qt/qml_imports/appPotatoClicker_build.cmake
 b1a2831822e67133e8896751c3467065 .qt/rcc/qrc_appPotatoClicker_raw_qml_0.cpp
-eee8ada3ec6f33126571185cd0fa7173 .qt/rcc/qrc_appPotatoClicker_raw_qml_0_extra_qmldirs.cpp
 7b743ab5af4bf32d4542d03ce3004ccc .qt/rcc/qrc_qmake_PotatoClicker.cpp
 9b1bf9e4911f9bb8dca4f0732ed5a4c6 .rcc/qmlcache/all_aotstats.aotstats
 48d502ef02b120947fc628d492398b78 .rcc/qmlcache/appPotatoClicker_Main_qml.cpp
-05322ac6cb90807cb6c39b2a23c97f99 .rcc/qmlcache/appPotatoClicker_build/Button_qml.cpp
 91c42eb196f5d3c5d55a9d97feebcf2a .rcc/qmlcache/appPotatoClicker_qmlcache_loader.cpp
 2cd961dccf3bd34e418b35745ef8385b .rcc/qmlcache/module_appPotatoClicker.aotstats
 42e57def37310355b5690ef03c630163 CMakeFiles/all_aotstats
